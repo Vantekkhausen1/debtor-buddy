@@ -1,0 +1,37 @@
+[
+  {
+    "id": "tpl-1",
+    "name": "Zahlungsvereinbarung",
+    "category": "Schriftverkehr",
+    "subject": "Zahlungsvereinbarung zu Aktenzeichen {{AZ}}",
+    "body": "Sehr geehrte Damen und Herren,\n\nbezugnehmend auf die Forderung mit dem Aktenzeichen {{AZ}} von {{Name1}} (Betreff: {{Betreff}}) schlagen wir folgende Ratenzahlung vor:\n\nGesamtforderung: {{Gesamtforderung}}\nVorgeschlagene Monatsrate: {{Regulierungsrate}}\nLaufzeit: {{Laufzeit}} Monate\n\nWir bitten um Bestätigung dieser Vereinbarung.\n\nMit freundlichen Grüßen"
+  },
+  {
+    "id": "tpl-2",
+    "name": "Widerspruch gegen Forderung",
+    "category": "Schriftverkehr",
+    "subject": "Widerspruch zu Aktenzeichen {{AZ}}",
+    "body": "Sehr geehrte Damen und Herren,\n\nhiermit widerspreche ich der Forderung mit dem Aktenzeichen {{AZ}} bezüglich {{Betreff}} in Höhe von {{Gesamtforderung}}.\n\nBitte übersenden Sie eine detaillierte Aufstellung der Forderung inklusive Nachweis der Rechtsgrundlage.\n\nMit freundlichen Grüßen"
+  },
+  {
+    "id": "tpl-3",
+    "name": "Stundungsantrag",
+    "category": "Schriftverkehr",
+    "subject": "Antrag auf Stundung zu Aktenzeichen {{AZ}}",
+    "body": "Sehr geehrte Damen und Herren,\n\naufgrund einer aktuellen finanziellen Notlage bitte ich um Stundung der Forderung mit dem Aktenzeichen {{AZ}} ({{Betreff}}) in Höhe von {{Gesamtforderung}} für einen Zeitraum von 3 Monaten.\n\nMit freundlichen Grüßen"
+  },
+  {
+    "id": "tpl-4",
+    "name": "Zahlungserinnerung an Gläubiger (Email)",
+    "category": "Email",
+    "subject": "Rückfrage zu Forderung {{AZ}}",
+    "body": "Sehr geehrte Damen und Herren,\n\nzur Forderung mit dem Aktenzeichen {{AZ}} ({{Name1}}, {{Betreff}}) bitten wir um aktuellen Sachstand zum Verfahrensstand: {{Verfahrensstand}}.\n\nMit freundlichen Grüßen"
+  },
+  {
+    "id": "tpl-5",
+    "name": "Bestätigung Regulierungsangebot",
+    "category": "Schriftverkehr",
+    "subject": "Regulierungsangebot zu Aktenzeichen {{AZ}}",
+    "body": "Sehr geehrte Damen und Herren,\n\nwir bieten zur Erledigung der Forderung {{AZ}} ({{Betreff}}) eine einmalige Zahlung in Höhe von {{Regulierungssumme}} zur vollständigen Erledigung an.\n\nBitte bestätigen Sie die Annahme dieses Angebots.\n\nMit freundlichen Grüßen"
+  }
+]
